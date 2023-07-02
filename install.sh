@@ -119,6 +119,7 @@ function copy_joshuto_config() {
 function main() {
     echo "*********************************"
     apt_update
+    git_update
     echo "*********************************"
     install_bat
     echo "*********************************"
